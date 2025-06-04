@@ -1,0 +1,6 @@
+.app-container {
+  min-height: 100vh;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 16px #0001;
+}
