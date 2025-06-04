@@ -4,7 +4,8 @@
 
 [build.environment]
   NODE_VERSION = "20.0.0"
-  NPM_VERSION = "10.0.0"
+  NPM_VERSION = "9.6.4"
+  NODE_OPTIONS = "--openssl-legacy-provider"
 
 [[redirects]]
   from = "/*"
