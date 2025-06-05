@@ -2,14 +2,16 @@
   "name": "gym-tracker",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://sergioAndresCastaneda.github.io/gym-tracker",
+  "description": "Aplicación para seguimiento de rutinas de gimnasio",
+  "repository": "https://github.com/sergioAndresCastaneda/gym-tracker",
+  "homepage": "https://courageous-crisp-65ec22.netlify.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build --mode production",
     "preview": "vite preview",
-    "vercel-build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "vercel-build": "vite build"
   },
   "engines": {
     "node": ">=18.17.0",

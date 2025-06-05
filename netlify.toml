@@ -1,12 +1,17 @@
+# Configuración de despliegue para Netlify
+# Última actualización: Junio 2024
+
 [build]
-  command = "npm run build"
-  publish = "dist"
+  command = "npm run build"  # Comando para construir la aplicación
+  publish = "dist"            # Directorio de salida de la compilación
 
 [build.environment]
-  NODE_VERSION = "20.0.0"
-  NPM_VERSION = "9.6.4"
-  NODE_OPTIONS = "--openssl-legacy-provider"
+  # Versiones específicas para compatibilidad
+  NODE_VERSION = "20.0.0"      # Versión de Node.js
+  NPM_VERSION = "9.6.4"        # Versión de npm
+  NODE_OPTIONS = "--openssl-legacy-provider"  # Soluciona problemas de compatibilidad
 
+# Configuración de redirecciones SPA (Single Page Application)
 [[redirects]]
   from = "/*"
   to = "/index.html"
